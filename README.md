@@ -1,69 +1,62 @@
-# First-Strategy
+# 📘 50/200 SMA Crossover Trading Strategy
 
 
-#Overview
+# Overview
 
-This repository contains a Jupyter notebook demonstrating a simple trading strategy. The notebook includes data loading, signal generation, backtesting, and performance visualization. It is intended as a beginner-friendly example.
+This repository contains a Jupyter notebook that implements and backtests a classic 50/200 Simple Moving Average (SMA) Crossover Strategy.
+The notebook covers data loading, preprocessing, trading signal generation, backtesting, and performance visualization.
+This project is intended as a simple and clear example for learning the basics of strategy development in Python -- all inside Google Colab
 
-#Contents
+# 🧠 Strategy Logic
 
-Strategy explanation
+The strategy uses two moving averages:
 
-Data acquisition and preprocessing
+SMA 50 (short-term trend)
 
-Trading signals
+SMA 200 (long-term trend)
 
-Backtest logic
+Rules:
 
-Performance metrics
+Buy when SMA 50 crosses above SMA 200 (Golden Cross)
 
-Charts and visual outputs
+Sell when SMA 50 crosses below SMA 200 (Death Cross)
 
-How to Run
+This is one of the most widely known trend-following strategies.
 
-Clone the repo:
+# 📂 Notebook Contents
+
+Importing and cleaning price data
+
+Calculating SMA indicators
+
+Generating buy signals
+
+Running a simple backtest
+
+Plotting signals and equity curve
+
+Basic performance summary
+
+# How to Run
+
+Click the link below to open the notebook directly in Google Colab:
 
 git clone https://github.com/<your-username>/<repo-name>.git
 
+# 🛠 Dependencies
 
-Install dependencies (if you have a requirements.txt):
-
-pip install -r requirements.txt
-
-
-Open the notebook:
-
-jupyter notebook
-
-
-Run cells top to bottom.
-
-Strategy Summary
-
-Briefly explain what the strategy does.
-Example:
-
-The strategy uses two moving averages. A buy signal occurs when the short-term average crosses above the long-term average; a sell signal occurs when it crosses below.
-
-Example Outputs
-
-(You can add screenshots later using GitHub’s “Upload image” button.)
-
-Dependencies
-
-List the key Python libraries used.
-Example:
+Common libraries used:
 
 pandas
 
 numpy
 
-matplotlib
+yfinance (or other data source)
 
-yfinance
-
-backtesting.py / vectorbt (if used)
-
-Disclaimer
+# ⚠️ Disclaimer
 
 This project is for educational purposes only and not financial advice.
+
+# 📄 License (MIT)
+
+This project is licensed under the MIT License — you are free to use, modify, and distribute the code with proper attribution.

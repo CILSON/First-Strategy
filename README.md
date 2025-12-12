@@ -41,7 +41,7 @@ Basic performance summary
 
 Click the link below to open the notebook directly in Google Colab:
 
-https://colab.research.google.com/github/CILSON/First-Strategy/ALGO1.ipynb
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CILSON/First-Strategy/blob/main/ALGO1.ipynb)
 
 # 🛠 Dependencies
 

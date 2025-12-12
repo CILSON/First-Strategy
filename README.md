@@ -11,31 +11,31 @@ This project is intended as a simple and clear example for learning the basics o
 
 The strategy uses two moving averages:
 
-SMA 50 (short-term trend)
+ - SMA 50 (short-term trend)
 
-SMA 200 (long-term trend)
+ - SMA 200 (long-term trend)
 
 Rules:
 
-Buy when SMA 50 crosses above SMA 200 (Golden Cross)
+ - Buy when SMA 50 crosses above SMA 200 (Golden Cross)
 
-Sell when SMA 50 crosses below SMA 200 (Death Cross)
+ - Sell when SMA 50 crosses below SMA 200 (Death Cross)
 
 This is one of the most widely known trend-following strategies.
 
 # 📂 Notebook Contents
 
-Importing and cleaning price data
+ - Importing and cleaning price data
 
-Calculating SMA indicators
+ - Calculating SMA indicators
 
-Generating buy signals
+ - Generating buy signals
 
-Running a simple backtest
+ - Running a simple backtest
 
-Plotting signals and equity curve
+ - Plotting signals and equity curve
 
-Basic performance summary
+ - Basic performance summary
 
 # How to Run
 
@@ -47,11 +47,11 @@ Click the link below to open the notebook directly in Google Colab:
 
 Common libraries used:
 
-pandas
+ - pandas
 
-numpy
+ - numpy
 
-yfinance (or other data source)
+ - yfinance (or other data source)
 
 # ⚠️ Disclaimer
 
